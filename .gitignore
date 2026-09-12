@@ -1,12 +1,46 @@
-# Python-generated files
+# ===================== Python =====================
 __pycache__/
-*.py[oc]
+*.py[cod]
+*$py.class
+*.so
+
+# ===================== Build / Dist ================
 build/
 dist/
 wheels/
-*.egg-info
+*.egg-info/
+*.egg
 
-# Virtual environments
-.venv
+# ===================== Virtual Environments ========
+.venv/
+venv/
+ENV/
+
+# ===================== Environment / Secrets =======
 .env
+.env.*
+!.env.example
+
+# ===================== IDE / Editor ================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
 .claude
+
+# ===================== Jupyter Notebooks ===========
+.ipynb_checkpoints/
+
+# ===================== Logs ========================
+logs/*.log
+
+# ===================== Data (keep .gitkeep) ========
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# ===================== OS Files ====================
+.DS_Store
+Thumbs.db
