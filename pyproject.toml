@@ -6,10 +6,10 @@ readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
     "ipykernel",
+    "pydantic",
     "langchain",
     "langchain-core",
     "langchain-community",
     "langchain-groq",
-    "langsmith",
     "python-dotenv"
 ]
