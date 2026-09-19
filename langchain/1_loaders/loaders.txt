@@ -1,0 +1,6 @@
+OCR          → Converts scanned images → Machine-readable text
+PDF Parser   → Extracts text, tables, images, layout & metadata from PDFs
+Web Crawler  → Discovers and fetches web pages/URLs
+Web Parser   → Extracts and structures content from HTML (sections, text, tables, links, images)
+
+These are availble in either : open source python packages + Commercial python packages:

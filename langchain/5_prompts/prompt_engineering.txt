@@ -1,0 +1,7 @@
+How to build an effective prompt = Goal(what do u want) + context(why do you need it, who is involved) + Expectations(how it should repond) + Source()
+
+
+Popular Techniques:
+    1. zero shot prompting
+    2. Few shot prompting
+    3. Chain of Thought prompting

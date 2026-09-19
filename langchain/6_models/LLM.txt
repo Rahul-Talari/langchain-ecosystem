@@ -1,0 +1,14 @@
+LLM GENERATION PARAMETERS
+ 
+|-------------------|------------------|---------------------------------------------|--------------------------------|
+| Parameter         | Controls         | Simple Explanation                          | Effect                         |
+|-------------------|------------------|---------------------------------------------|--------------------------------|
+| Temperature       | Randomness       | How randomly tokens are selected            | High → creative, Low → focused |
+| Top P             | Probability pool | Selects tokens within cumulative probability| Low → focused, High → diverse  |
+| Top K             | Token pool       | Selects from top K probable tokens          | Low → focused, High → diverse  |
+| Max Tokens        | Output length    | Maximum number of tokens generated          | Limits response size           |
+| Frequency Penalty | Repetition       | Penalizes frequently repeated tokens        | Reduces repetition             |
+| Presence Penalty  | New topics       | Penalizes tokens already used               | Encourages new topics/words    |
+| Stop              | Ending           | Defines sequences that stop generation      | Ends output at specified point |
+|-------------------|------------------|---------------------------------------------|--------------------------------|
+
