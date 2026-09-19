@@ -1,0 +1,36 @@
+EMBEDDINGS
+→ Converts text into numerical vectors that capture meaning; used for semantic search, similarity and clustering.
+
+
+1. Frequency-Based
+   → Type      : Sparse vectors | Word/Sentence/Document level
+   → Techniques: Bag of Words (BoW), TF-IDF, N-grams
+   → Based mainly on word frequency; high-dimensional with limited semantic understanding.
+
+2. Neural Network-Based
+   → Type      : Dense vectors | Static word level
+   → Techniques: Word2Vec, GloVe, FastText
+   → Learns semantic relationships from surrounding word statistics.
+
+3. Contextual Embeddings
+   → Type      : Dense vectors | Contextual word/token level
+   → Techniques: ELMo, BERT, RoBERTa
+   → Representation changes according to the surrounding context.
+
+4. Sentence / Document Embeddings
+   → Type      : Dense vectors | Sentence/Document level
+   → Techniques: SBERT, Sentence Transformers
+   → Produces a single vector representing larger text units; useful for semantic similarity/search.
+
+5. LLM-Based Embeddings
+   → Type      : Dense vectors | Modern, various text levels
+   → Techniques: Modern embedding models
+   → Provides strong semantic, contextual and multilingual representations; commonly optimized for retrieval/RAG.
+
+6. Customized Embeddings
+   → Technique : Fine-tuning
+   → Adapts a pre-trained embedding model to domain-specific tasks.
+
+7. Evaluation / Benchmark
+   → MTEB (Massive Text Embedding Benchmark)
+   → Benchmarks embedding models across retrieval, classification, clustering, semantic similarity, etc.

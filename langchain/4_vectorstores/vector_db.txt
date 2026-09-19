@@ -1,0 +1,12 @@
+**Vector indexing**: Algorithm and DB selection
+- Vector DB algorithms
+- Many vector DB options
+
+- **Build Vector DB from Scratch:** https://www.linkedin.com/posts/deshwalmahesh_vectordb-learrning-opensource-activity-7331540641677557761-5OjE
+- **Different types of search:** https://www.linkedin.com/posts/bhavishya-pandit_llm-opensource-llama-activity-7332269883692322817-aUF2
+
+
+**Knowledge base**
+- Vector DB
+- Graph DB
+- Relational DB
