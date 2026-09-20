@@ -11,5 +11,5 @@ dependencies = [
     "langchain-core",
     "langchain-community",
     "langchain-groq",
-    "python-dotenv"
+    "python-dotenv",
 ]
